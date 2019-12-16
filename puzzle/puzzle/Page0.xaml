@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="puzzle.Page0">
+    <ContentPage.Content>
+        <StackLayout Margin="20"  BackgroundColor="Yellow">
+            <Label Text=" "
+                     TextColor="White" FontSize="70"
+                    FontAttributes="Bold" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text=" 3x3 " BackgroundColor="Red"
+                    TextColor="White" FontSize="70"
+                    FontAttributes="Bold" 
+                    x:Name="bu1" Clicked="Bu1_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+           
+            <Button Text=" 4x4 " BackgroundColor="Blue"
+                     TextColor="White" FontSize="70"
+                    FontAttributes="Bold" 
+                     x:Name="bu2" Clicked="Bu2_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label Text=" "
+                     TextColor="White" FontSize="70"
+                    FontAttributes="Bold" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
